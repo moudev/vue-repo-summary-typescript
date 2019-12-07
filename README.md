@@ -1,5 +1,8 @@
-# test-ts
+# Vue.js with TypeScript
 
+## Screenshots
+
+![Screenshot](https://user-images.githubusercontent.com/13499566/67171334-dca37800-f373-11e9-9daf-6a47338cd81d.png)
 ## Project setup
 ```
 npm install
