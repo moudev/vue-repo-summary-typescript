@@ -1,0 +1,77 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+.repositories {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-info-card{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.main-info-card__container{
+  padding: 25px;
+  box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+  width: 35%;
+}
+
+.main-info-card__image {
+  width: 35%;
+}
+
+.main-info-card__title
+{
+  margin: 0px;
+  font-size: 1.5em;
+}
+
+.main-info-card__description
+{
+  display: inline-block;
+  width: 75%;
+  margin-bottom: 25px;
+}
+
+.main-info-card__details
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info-card{
+  display: flex;
+  justify-content: center;
+  margin: 0px 25px 25px 25px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.info-card__container{
+  padding: 25px;
+  box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+  width: 100%;
+}
+
+.info-card__image {
+  width: 20%;
+}
+
+.info-card__title
+{
+  margin: 0px;
+}
+
+.info-card__details
+{
+  display: flex;
+  justify-content: space-evenly;
+}
